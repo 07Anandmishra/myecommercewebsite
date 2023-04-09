@@ -1,0 +1,29 @@
+
+
+*{
+    font-family: 'Mukta';
+}
+.btn1{
+    border: 2px solid rgb(160, 33, 160);
+    border-radius: 5px;
+    padding: 8px 20px;
+    background-color: transparent!important;
+    color: rgb(160, 33, 160)!important;
+    text-decoration: none!important;
+    opacity: 1;
+    cursor: pointer;
+}
+.carousel-control-next-icon{
+    background-color: black!important;
+    border-radius: 2px!important;
+}
+.carousel-control-prev-icon{
+    background-color: black!important;
+    border-radius: 2px!important;
+}
+@media screen and (max-width:767px) {
+    .mobileviewslider img{
+        height:300px;
+    }
+}
+

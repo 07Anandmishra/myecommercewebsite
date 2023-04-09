@@ -1,0 +1,85 @@
+*{
+    font-family: 'Mukta';
+}
+
+.card_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_column .card{
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid rgb(160, 33, 160);
+   border-radius: 10px;
+   transition: .5s ease-in-out
+}
+.card_column .card img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn1{
+    border: 2px solid rgb(160, 33, 160);
+    border-radius: 5px;
+    padding: 8px 20px;
+    background-color: transparent!important;
+    color: rgb(160, 33, 160)!important;
+    text-decoration: none!important;
+    opacity: 1;
+}
+.btnview{
+    border: 2px solid rgb(160, 33, 160);
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: transparent!important;
+    color: rgb(160, 33, 160)!important;
+    text-decoration: none!important;
+    opacity: 1;
+}
+
+.card_column .card:hover{
+    transition: 0.7 ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+}
+.card_column .card:hover .btn1{
+    background-color: rgb(160, 33, 160)!important;
+    color: #fff!important;
+    font-weight: 600;
+}
+
+.card_column .card-img-top{
+    margin:0px 0px;
+    height: 200px;
+    padding: 20px 20px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    ;
+}
+
+.pagination{
+    display:flex;
+    justify-content: center;
+    padding: 10px 10px;
+    margin: 15px;
+    cursor: pointer;
+}
+.pagination span{
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+.pagination_selected{
+    background-color: rgb(220,220,220);
+}

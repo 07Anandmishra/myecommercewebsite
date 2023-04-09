@@ -1,0 +1,21 @@
+.navbar{
+    /* background-color: rgb(128, 58, 58); */
+    background-color: rgb(160, 33, 160)!important;
+    padding-right: 20px;
+}
+
+
+a{
+    color: #fff!important;
+    font-weight: 600!important;
+}
+li a{
+    margin: 0px 20px;
+}
+.icon-shopping-bag:before {
+    content: "\f290";
+  }
+  .shopingicons{
+   float:right;
+    
+  }
